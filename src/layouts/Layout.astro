@@ -10,8 +10,8 @@ interface Props {
 }
 
 const {
-  title = '/blackslash/ — Precision Instruments',
-  description = '/blackslash/ develops high-accuracy measurement instruments and innovative electronic products. Precision instruments engineered for accuracy, reliability and innovation.',
+  title = '\\blackslash\\ — Precision Instruments',
+  description = '\\blackslash\\ develops high-accuracy measurement instruments and innovative electronic products. Precision instruments engineered for accuracy, reliability and innovation.',
   image = '/images/og-image.png',
 } = Astro.props;
 
@@ -58,7 +58,7 @@ const canonicalURL = new URL(Astro.url.pathname, siteUrl);
     <script type="application/ld+json" set:html={JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "/blackslash/",
+      "name": "\\blackslash\\",
       "description": "Technology and instrumentation company focused on developing high-accuracy measurement instruments and innovative electronic products.",
       "url": siteUrl,
       "logo": `${siteUrl}images/logo.png`,

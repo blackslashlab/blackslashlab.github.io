@@ -52,6 +52,6 @@ applications:
   - "Quality assurance"
   - "Research and development"
 seo:
-  title: "K-Type Precision Thermometer | /blackslash/"
+  title: "K-Type Precision Thermometer | \\blackslash\\"
   description: "High-accuracy K-type thermocouple thermometer designed for precision temperature measurement in professional and industrial applications."
 ---
